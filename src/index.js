@@ -16,7 +16,7 @@ ReactDOM.render(
   <StoreProvider store={store}>
     <ErrorBoundary>
       <SwapiServiceProvider value={swapiService}>
-        <Router>
+        <Router basename="/star-db">
           <App />
         </Router>
       </SwapiServiceProvider>
